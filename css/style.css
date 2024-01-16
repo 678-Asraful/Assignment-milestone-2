@@ -218,8 +218,9 @@ nav .logo h3 {
 }
 
 .destinatin-grid {
-    margin-left: 135px;
-    margin-right: 135px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
 }
 
 .destination h3 {
@@ -402,8 +403,8 @@ nav .logo h3 {
     gap: 20px;
 }
 .why-choose-us{
-    margin-left: 135px;
-    margin-right: 135px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .why-choose-us h3 {
     text-align: center;
@@ -462,6 +463,7 @@ nav .logo h3 {
     background: rgba(251, 181, 99, 0.05);
     padding-left: 32px;
     padding-top: 32px;
+    padding-bottom: 32px;
     margin-bottom: 100px;
 }
 
@@ -582,15 +584,19 @@ nav .logo h3 {
         height: 50vh;
         margin: 20px;
     }
+    .destination-grid {
+        padding-left: 0;
+    }
     .destination h3{
         font-size: 20px;
+        text-align: center;
     }
-    .destination p{
-        font-size: 16px;
-    }
+    
 
     .destination p {
         margin: 10px;
+        text-align: center;
+        
     }
 
     .flex-first,
@@ -599,12 +605,10 @@ nav .logo h3 {
         flex-direction: column;
 
     }
-    .destination-grid {
-        margin: 20%;
-    }
+    
     
     .grid1 {
-        width: 330px;
+        width: 335px;
         height: 176px;
 
         margin: 0;
@@ -638,7 +642,7 @@ nav .logo h3 {
     }
 
     .grid6 {
-        width: 335px;
+        width: 334px;
         height: 176px;
     }
 
@@ -658,6 +662,8 @@ nav .logo h3 {
     .card3 {
         width: 335px;
         height: 289px;
+        overflow: hidden;
+        
     }
     .last-card{
         margin: 20px;
@@ -666,5 +672,15 @@ nav .logo h3 {
         font-size: 20px;
         
     }
-
+    .card1 p,
+    .card2 p,
+    .card3 p{
+        font-size: 14px;
+    }
+    .why-choose-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
 }
