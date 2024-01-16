@@ -604,11 +604,13 @@ footer{
     text-align: center;
     width: 100vw;
     height: 40vh;
+    background: rgba(19, 19, 24, 0.05);
 }
 .footer-logo{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    
+    padding-top: 100px;
     margin-bottom: 20px;
 }
 .footer-logo h3{
@@ -624,7 +626,7 @@ footer{
     gap: 20px;
     margin-bottom: 20px;
 }
-hr{
+ footer hr{
     margin-bottom: 20px;
     margin-left: 230px;
     margin-right: 230px;
@@ -660,7 +662,7 @@ hr{
     }
 
     .open-btn {
-        margin-left: 40%;
+        margin-left: 25%;
         font-size: 22px;
         cursor: pointer;
         display: block;
