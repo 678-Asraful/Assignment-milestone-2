@@ -709,6 +709,8 @@ footer{
     .popular-tours {
         flex-direction: column;
         margin: 10px;
+        position: relative;
+        margin-left: 20px;
     }
 
     .popular-tours .popular-tours-text h3 {
@@ -749,6 +751,8 @@ footer{
     .destination p {
         margin: 10%;
         text-align: center;
+        position: relative;
+        margin-left: 20px;
 
     }
 
@@ -763,8 +767,8 @@ footer{
     .grid1 {
         width: 85%;
         height: 176px;
-
-        margin: 0;
+        position: relative;
+        margin-left: 20px;
     }
 
 
@@ -772,36 +776,46 @@ footer{
     .grid2 {
         width: 85%;
         height: 176px;
-
-        margin: 0;
+        position: relative;
+        margin-left: 20px;
+        
     }
 
     .grid3 {
         width: 85%;
         height: 176px;
 
-        margin-left: 0;
+        position: relative;
+        margin-left: 20px;
     }
 
     .grid4 {
         width: 85%;
         height: 176px;
+        position: relative;
+        margin-left: 20px;
     }
 
     .grid5 {
         width: 85%;
         height: 176px;
+        position: relative;
+        margin-left: 20px;
 
     }
 
     .grid6 {
         width: 85%;
         height: 176px;
+        position: relative;
+        margin-left: 20px;
     }
 
     .grid7 {
         width: 85%;
         height: 176px;
+        position: relative;
+        margin-left: 20px;
     }
 
     .card-flex {
@@ -816,6 +830,8 @@ footer{
         width: 80%;
         height: 289px;
         overflow: hidden;
+        position: relative;
+        margin-left: 20px;
 
     }
 
@@ -827,13 +843,19 @@ footer{
         font-size: 90%;
 
     }
+    .why-choose-us p{
+        margin-bottom: 20px;
+    }
 
     .card1 p,
     .card2 p,
     .card3 p {
         font-size: 80%;
     }
-
+    .perfect-text{
+        position: relative;
+        margin-left: 20px;
+    }
     .perfect-place {
         flex-direction: column;
         margin: 25px;
@@ -845,9 +867,13 @@ footer{
     .perfect-video iframe{
         width: 95%;
         border-radius: 8px;
+        position: relative;
+        margin-left: 20px;
     }
     .contact-field{
         width: 70%;
+        position: relative;
+        margin-left: 20px;
     }
     .input-ghor input ,.input-ghor button{
         width: 90%;
@@ -860,3 +886,4 @@ footer{
     }
 
 }
+
