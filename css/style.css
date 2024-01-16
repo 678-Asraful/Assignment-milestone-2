@@ -157,6 +157,7 @@ nav .logo h3 {
 
 .popular-tours-text {
     width: 70%;
+    margin: 20px;
 }
 
 
@@ -214,6 +215,191 @@ nav .logo h3 {
 
     font-weight: 800;
 
+}
+
+.destinatin-grid {
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.destination h3 {
+    text-align: center;
+    color: #131318;
+
+
+    font-size: 40px;
+
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 24px;
+
+}
+
+.destination p {
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+
+
+    font-size: 16px;
+
+    font-weight: 400;
+    margin-bottom: 50px;
+
+
+
+}
+
+.grid1 img,
+.grid2 img {
+    width: 573px;
+    height: 300px;
+}
+
+.grid1 {
+    border-radius: 16px;
+    width: 573px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 5.png"), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+
+    font-size: 28px;
+
+    font-weight: 800;
+
+}
+
+.grid2 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 8.png), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+    border: 16px;
+    width: 576px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+
+    font-size: 28px;
+
+    font-weight: 800;
+}
+
+.grid3 img {
+    width: 374px;
+    height: 286px;
+
+}
+
+.grid3 {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 6.png"), lightgray 50% / cover no-repeat;
+    width: 374px;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+
+    font-size: 28px;
+
+    font-weight: 800;
+
+}
+
+.grid4 img {
+    width: 474px;
+    height: 286px;
+}
+
+.grid4 {
+    width: 474px;
+    height: 286px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 7.png"), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+
+    font-size: 28px;
+
+    font-weight: 800;
+}
+
+.grid5 {
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 9.png"), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+
+    font-size: 28px;
+
+    font-weight: 800;
+}
+
+.grid6 {
+    width: 473px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 11.png"), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+
+    font-size: 28px;
+
+    font-weight: 800;
+}
+
+.grid7 {
+    width: 673px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 10.png"), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 28px;
+
+    font-weight: 800;
+}
+
+.flex-first {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.flex-second {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    text-align: center;
+}
+
+.flex-third {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
 }
 
 
@@ -310,7 +496,7 @@ nav .logo h3 {
     }
 
     .read-button {
-        
+
         margin-bottom: 20px;
 
     }
@@ -319,6 +505,53 @@ nav .logo h3 {
         width: 90%;
         height: 50vh;
         margin: 20px;
+    }
+    .destination p{
+        margin: 10px;
+    }
+
+    .flex-first,.flex-second ,.flex-third {
+        flex-direction: column;
+
+    }
+
+    .grid1 {
+        width: 335px;
+        height: 176px;
+        
+        margin: 0;
+    }
+    .destinatin-grid{
+        margin: 20%;
+    }
+    .grid2 {
+        width: 335px;
+        height: 176px;
+        
+        margin: 0;
+    }
+    .grid3 {
+        width: 335px;
+        height: 176px;
+        
+        margin-left: 20;
+    }
+    .grid4{
+        width: 335px;
+        height: 176px;
+    }
+    .grid5{
+        width: 335px;
+        height: 176px;
+        
+    }
+    .grid6{
+        width: 335px;
+        height: 176px;
+    }
+    .grid7{
+        width: 335px;
+        height: 176px;
     }
 
 }
